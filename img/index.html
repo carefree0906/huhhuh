@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蛤蛤募資</title>
+
+    <link rel="icon" href="img/huhhuh-icon.svg">
+    <meta name='description' content="VR Bedroom 蛤蛤生風床墊">
+    <meta name='keyword' content="蛤蛤床墊,床墊,蛤蛤,床,腰酸背痛,VR,bedroom,虎虎生風,蛤蛤科技">
+    <meta property="og:title" content="蛤蛤科技-VR Bedroom 蛤蛤生風床墊，讓您安心好眠" />
+    <meta property="og:description" content="蛤蛤科技使用VR技術，研發蛤蛤生風床墊，讓您安心好眠">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="#" />
+    <meta property="og:image" content="#/">
+    <meta property="og:site_name" content="Moriran ramen" />
+    <meta property="fb:app_id" content="#" />
+    <meta content="Moriran" name="author">
+
+
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="scss/all.css">
+</head>
+
+<body>
+    <div class="header border-bottom border-warning border-4">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
+                <div class="container-fluid ps-0 pe-0">
+                    <a class="navbar-brand me-4 p-0 logo" href="#"><img
+                            src="img/huhhuh-logo.png" alt="#" width="111"
+                            height="40"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-light text-lg-center text-start ps-4 pe-4" href="#">關於蛤</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light text-lg-center text-start ps-4 pe-4" href="#">蛤!還有</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light text-lg-center text-start ps-4 pe-4" href="#">蛤!這也行</a>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <button type="button"
+                                class="btn padding-1 me-3 rounded-pill fw700 btn-warning-1 btn-danger-1-hover"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">登入</button>
+                            <button type="button"
+                                class="btn btn-outline-secondary padding-1 btn-secondary-1 btn-secondary-1-hover rounded-pill fw700">註冊</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header border-warning-1">
+                    <h5 class="modal-title" id="exampleModalLabel">登入</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">帳號</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">密碼</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <p class="text-secondary f14">忘記密碼</p>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-warning rounded-pill">登入</a>
+                        </div>
+
+
+                    </form>
+                </div>
+                <!--<div class="modal-footer">-->
+                <div class="position-relative m-4">
+                    <div class="progress" style="height: 1px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        <div class="position-absolute top-0 start-50 translate-middle bg-white text-center">
+                            還沒有帳號？<span class="text-danger">註冊一個帳號</span></div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--產品介紹-->
+    <section class="padding-3 bg-gray-100 pt-3">
+        <div class="container">
+            <span class="badge bg-secondary py-2 px-3 mb-1">蛤蛤科技</span>
+            <h1 class="fw700 fz-6 pb-4 letter-spacing-2">蛤哩蛤睏｜VR Bedroom 蛤蛤生風床墊</h1>
+            <div class="row">
+                <div class="col-lg-7">
+                    <img src="img/produt_image.jpg" alt="product img"
+                        class="border-radius-4 img-fluid">
+
+                </div>
+                <!--右側贊助目標金額-->
+                <div class="col-lg-5">
+                    <p class="text-light fz-2 my-2">目標 $600,000</p>
+                    <p class="fz-6 ff-bt2 fw600 mb-2">$280,047</p>
+                    <div class="progress mb-2">
+                        <div class="progress-bar bg-warning text-secondary" role="progressbar" style="width: 41%"
+                            aria-valuenow="41" aria-valuemin="0" aria-valuemax="100">41%</div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-fill mb-0">
+                            <p class="fz-2 mb-0">贊助人數</p>
+                            <p class="fw700 fz-5 text-darkGray mb-1"><span class="fz-6 ff-bt2 fw600">1374</span>人</p>
+                        </div>
+                        <div class="flex-fill mb-0">
+                            <p class="fz-2 mb-0">募資倒數</p>
+                            <p class="fw700 fz-5 text-darkGray mb-1"><span class="fz-6 ff-bt2 fw600">27</span>天</p>
+                        </div>
+                    </div>
+                    <ul class="d-flex mt-0 list-unstyled">
+                        <li class="me-2">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="認證標章"
+                                class="px-2 py-1 text-decoration-none">
+                                <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good01.svg"
+                                    alt="認證標籤">
+                                <small class="d-md-none align-bottom text-light-1 fz-2">認證標章</small>
+                            </a>
+                        </li>
+                        <li class="me-2">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="品質保證"
+                                class="px-2 py-1 text-decoration-none">
+                                <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good02.svg"
+                                    alt="品質保證">
+                                <small class="d-md-none align-bottom text-light-1 fz-2">品質保證</small>
+                            </a>
+                        </li>
+                        <li class="me-2">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="原生創意"
+                                class="px-2 py-1 text-decoration-none">
+                                <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good03.svg"
+                                    alt="原生創意">
+                                <small class="d-md-none align-bottom text-light-1 fz-2">原生創意</small>
+                            </a>
+                        </li>
+                        <li class="me-2">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="人氣王"
+                                class="px-2 py-1 text-decoration-none">
+                                <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good04.svg"
+                                    alt="人氣王">
+                                <small class="d-md-none align-bottom text-light-1 fz-2">人氣王</small>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="mt-3 bg-white p-2 rounded-3 border-start border-4 border-warning">
+                        專案募資中！<br>在 <span class="fw700">2022/12/31 23:59</span> 募資結束前，您都可以贊助我們！
+                    </div>
+                    <button type="button"
+                        class="w-100 btn btn-warning-1 btn-danger-1-hover rounded-pill mt-3 py-1 fz-4 fw700">贊助方案</button>
+
+                    <div class="row">
+                        <div class="col-7">
+                            <button type="button"
+                                class="btn-outline-secondary-1 btn-warning-1-hover rounded-pill mt-3 py-1 w-100 fz-4 fw700">
+                                <i class="fas fa-heart fa-heart-hover pe-2"></i>追蹤專案</button>
+                        </div>
+                        <div class="col-5">
+                            <button type="button"
+                                class="btn-outline-secondary-1 btn-secondary-1-hover rounded-pill mt-3 py-1 w-100 fz-4 fw700">
+                                <i class="fas fa-share-alt pe-2"></i>分享</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--nav position-sticky-->
+    <div class="position-sticky top-0 z-index-1 bg-white nav-border mb-4" style="z-index: 999">
+        <div class="container">
+            <ul class="nav" role="tablist" aria-orientation="vertical">
+                <li class="nav-item">
+                    <a class="nav-link text-light text-center padding-2 weight-gray active" href="#project" role="tab"
+                        data-bs-toggle="tab" aria-current="page" onclick="goToTab()">專案介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light text-center padding-2 weight-gray" href="#qa" role="tab"
+                        data-bs-toggle="tab" onclick="goToTab()">常見問答</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light text-center padding-2 weight-gray" href="#news" role="tab"
+                        data-bs-toggle="tab" onclick="goToTab()">目前進度</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light text-center padding-2 weight-gray" href="#message" role="tab"
+                        data-bs-toggle="tab" onclick="goToTab()">留言</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--tab-content 這裡找不到為何col-lg-4不能包在row裡面，先這樣 逃走~~~-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="tab-content">
+                    <!--專案介紹tab-->
+                    <div class="tab-pane fade active show mb-1 px-2" id="project" role="tabpanel">
+                        <img class="img-fluid mb-4" src="img/p3.png"
+                            alt="VR Bedroom 蛤蛤生風床墊">
+                        <h3 class="h3title fz-5 fw700">VR Bedroom 蛤蛤生風床墊</h3>
+                        <p class="justify-content-sta line-height-1 mb-4">
+                            受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
+                        </p>
+                        <img class="img-fluid mb-4" src="img/p1.png" alt="VR Bedroom 蛤蛤生風床墊">
+                        <h3 class="h3title fz-5 fw700">VR Bedroom 蛤蛤生風床墊</h3>
+                        <p class="justify-content-sta line-height-1 mb-4">
+                            受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
+                        </p>
+                    </div>
+
+                    <!--常見問題tab-->
+                    <div class="tab-pane fade mb-1 px-2" id="qa" role="tabpanel" >              
+
+                        <div class="accordion" id="accordion-faq">
+                            <div class="accordion-item my-3">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button accordion-button-bg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        <span class="bg-warning text-white p-2 rounded fw-bold me-4">Q1</span>蛤蛤床墊的材料皆來自台灣嗎？
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordion-faq">
+                                    <div class="accordion-body">
+                                        <p>您所購買的蛤蛤床墊皆為台灣設計製造！                                      
+                                        100％ 使用台灣本地嚴選素材，包括台灣中鋼獨立筒和獨家配方高分子彈力泡綿。                                        
+                                        芝麻豆腐部分採用進口材料，包括來自馬來西亞的三倍高密度獨立筒，以及義大利工廠注模天然乳膠，其他部分也全都是台灣本地嚴選素材！</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button accordion-button-bg collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span class="bg-warning text-white p-2 rounded fw-bold me-4">Q2</span>運費多少？會幫我搬上樓嗎？
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordion-faq">
+                                    <div class="accordion-body">
+                                        <p>全產品皆免運費免樓層費（限台灣本島）～蛤蛤寄送委託宅配業者（黑貓或新竹物流）以各家宅配業者政策為準。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button accordion-button-bg collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <span class="bg-warning text-white p-2 rounded fw-bold me-4">Q3</span>有 IKEA 跟 MUJI 規格的蛤蛤床墊嗎？接受特規訂製嗎？
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                    data-bs-parent="#accordion-faq">
+                                    <div class="accordion-body">
+                                        <p>目前有對應 MUJI 規格，可接受特規定製喔~</p>                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3">
+                                <h2 class="accordion-header" id="headingFore">
+                                    <button class="accordion-button accordion-button-bg collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFore" aria-expanded="false" aria-controls="collapseFore">
+                                        <span class="bg-warning text-white p-2 rounded fw-bold me-4">Q4</span>蛤蛤床墊有保固嗎？
+                                    </button>
+                                </h2>
+                                <div id="collapseFore" class="accordion-collapse collapse" aria-labelledby="headingFore"
+                                    data-bs-parent="#accordion-faq">
+                                    <div class="accordion-body">
+                                        <p>蛤蛤床墊有不變形保證，可享十年保固喔!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button accordion-button-bg collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <span class="bg-warning text-white p-2 rounded fw-bold me-4">Q5</span>換洗的床包要去哪裡買？
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordion-faq">
+                                    <div class="accordion-body">
+                                        <p>每一個蛤蛤床墊都附贈專屬床包一個。
+                                        若需換洗補充，歡迎到蛤蛤床墊官網加購喔～</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button accordion-button-bg collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <span class="bg-warning text-white p-2 rounded fw-bold me-4">Q6</span>如何保養？注意事項？
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordion-faq">
+                                    <div class="accordion-body">
+                                        <p>方格紋路朝上，勿日照曝曬，日常換洗床包即可，每三個月可用吸塵器（床墊吸頭）溫柔清潔，
+                                        純棉床包可機洗勿高溫烘乾</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        
+                    </div>
+
+                    <!--目前進度tab-->
+                    <div class="tab-pane fade" id="news" role="tabpanel">
+                        <div class="d-flex mb-3 border border-1 rounded-3">
+                            <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/news01.jpg"
+                                alt="台中蛤蛤體驗店｜免費參加送枕頭套">
+                            <div class="d-flex flex-column m-3">
+                                <p class="fw700">台中蛤蛤體驗店｜免費參加送枕頭套</p><br>
+                                <span class="fz-2 ff-bt2 text-secondary">2022-10-20</span>
+                                <p class="fz-2 text-secondary text-align-justify">
+                                    大家安安！謝謝每位贊助者的熱情支持，讓我們離夢想更進一步，我們將於下個月舉辦體驗會，歡迎各位踴躍參與！
+                                </p>
+                                <a href="#" class="fz-2 text-danger ff-bt2 text-decoration-none">MORE</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3 border border-1 rounded-3">
+                            <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/news01.jpg"
+                                alt="台中蛤蛤體驗店｜免費參加送枕頭套">
+                            <div class="d-flex flex-column m-3">
+                                <p class="fw700">台中蛤蛤體驗店｜免費參加送枕頭套</p><br>
+                                <span class="fz-2 ff-bt2 text-secondary">2022-10-20</span>
+                                <p class="fz-2 text-secondary text-align-justify">
+                                    大家安安！謝謝每位贊助者的熱情支持，讓我們離夢想更進一步，我們將於下個月舉辦體驗會，歡迎各位踴躍參與！
+                                </p>
+                                <a href="#" class="fz-2 text-danger ff-bt2 text-decoration-none">MORE</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3 border border-1 rounded-3">
+                            <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/news01.jpg"
+                                alt="台中蛤蛤體驗店｜免費參加送枕頭套">
+                            <div class="d-flex flex-column m-3">
+                                <p class="fw700">台中蛤蛤體驗店｜免費參加送枕頭套</p><br>
+                                <span class="fz-2 ff-bt2 text-secondary">2022-10-20</span>
+                                <p class="fz-2 text-secondary text-align-justify">
+                                    大家安安！謝謝每位贊助者的熱情支持，讓我們離夢想更進一步，我們將於下個月舉辦體驗會，歡迎各位踴躍參與！
+                                </p>
+                                <a href="#" class="fz-2 text-danger ff-bt2 text-decoration-none">MORE</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--留言tab-->
+                    <div class="tab-pane fade" id="message" role="tabpanel">
+                        <div class="col-12">
+                            <div class="border rounded p-3 mb-3">
+                                <div class="d-flex justify-content-start">
+                                    <img src="img/avatar_1.png" alt="放客幫個人頭像" class="rounded rounded-circle" />
+                                    <div class="d-flex flex-column ms-3">
+                                        <span>放客幫</span>
+                                        <small class="text-secondary">2022年2月04日 18:56</small>
+                                    </div>
+                                </div>
+                                <p class="my-3">
+                                    床墊很好躺，腰酸背痛的毛病舒緩很多，有空來毛利嵐吃拉麵，可以給你們優惠喔~
+                                </p>
+                                <div class="p-3 bg-gray-100 rounded-2">
+                                    <span class="text-warning w-100 d-block mb-2 fw-bold">提案者回覆:</span>
+                                    感謝支持，小編很愛吃拉麵，已私訊
+                                </div>
+                            </div>
+                            <div class="border rounded p-3 mb-3">
+                                <div class="d-flex justify-content-start">
+                                    <img src="img/avatar_2.png" alt="不要問頭像" class="rounded rounded-circle" />
+                                    <div class="d-flex flex-column ms-3">
+                                        <span>不要問</span>
+                                        <small class="text-secondary">2022年2月06日 14:56</small>
+                                    </div>
+                                </div>
+                                <p class="my-3">
+                                    床墊尺寸有對應 MUJI 規格，很方便
+                                </p>
+                                <div class="p-3 bg-gray-100 rounded-2">
+                                    <span class="text-warning w-100 d-block mb-2 fw-bold">提案者回覆:</span>
+                                    感謝支持，若有其他需求可隨時與我們聯繫喔!
+                                </div>
+                            </div>
+                            <div class="border rounded p-3 mb-3">
+                                <div class="d-flex justify-content-start">
+                                    <img src="img/avatar_3.png" alt="很愛聊頭像" class="rounded rounded-circle" />
+                                    <div class="d-flex flex-column ms-3">
+                                        <span>很愛聊</span>
+                                        <small class="text-secondary">2022年2月08日 09:56</small>
+                                    </div>
+                                </div>
+                                <p class="my-3">
+                                    3D環境可以新增電影類的嗎
+                                </p>
+                                <div class="p-3 bg-gray-100 rounded-2">
+                                    <span class="text-warning w-100 d-block mb-2 fw-bold">提案者回覆:</span>
+                                    感謝支持，會將您的提議轉給開發部門喔!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--蛤蛤科技行動版-->
+                <div class="d-xl-none d-md-block">
+                    <div class="border border-rounded-1 border-1 p-3 mt-4">
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid rounded-circle border border-warning border-3 me-3 mb-3"
+                                src="https://hexschool.github.io/boootstrap5WebLayout/assets/store_img.jpg" alt="蛤蛤科技">
+                            <div>
+                                <div class="moneyStore">蛤蛤科技</div>
+                                <p>已發起 1 個專案</p>
+                            </div>
+                        </div>
+                        <p class="d-none d-md-block">VR Bedroom 蛤蛤生風床墊，讓你睡夢中也能替換各種場景！</p>
+                        <div class="d-flex justify-content-between aligh-items-center">
+                            <div>
+                                <a class="d-inline-block bg-secondary rounded-circle text-center me-2"
+                                    style="width:30px; height:30px;">
+                                    <i class="fab fa-facebook-f text-white mt-2"></i>
+                                </a>
+                                <a class="d-inline-block bg-secondary rounded-circle text-center"
+                                    style="width:30px; height:30px;">
+                                    <i class="fab fa-youtube text-white mt-2"></i>
+                                </a>
+                            </div>
+                            <button type="button"
+                                class="bg-white border-secondary rounded-pill text-center text-secondary py-1 px-3">
+                                <i class="far fa-comment-dots"></i><small>聯絡我們</small>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!--贊助方案行動版-->
+                    <h3
+                        class="bg-gray-100 border-start border-end border-4 border-warning py-2 my-3 fz-4 text-center d-xl-none d-md-block">
+                        選擇一個方案來支持</h3>
+                    <ul class="ps-0">
+                        <li class="card border-rounded-1 my-3">
+                            <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg"
+                                class="card-img-top" alt="plan_img">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <p class="fz-2 text-light">限時優惠</p>
+                                    <p class="fz-2 text-light">2 days 20:05:20</p>
+                                </div>
+                                <h2 class="card-title fz-3 fw700">台制 單人標準一張</h2>
+                                <span class="fz-3 ff-bt2">原價20,800元 (現省9000元)</span>
+
+                                <div class="d-flex">
+                                    <span
+                                        class="badge bg-darkGary rounded-3 text-secondary fz-1 fw700 me-3 px-3">已被贊助88次</span>
+                                    <span class="badge bg-secondary rounded-3 text-white fz-1 fw700 px-3">限量<small
+                                            class="fz-1 text-warning">200</small>個</span>
+                                </div>
+                                <p class="card-text my-3 text-secondary lh-base">
+                                    台制單人｜90 x 188 x 26 cm±1cm<br>
+                                ► 免費搬運舊床墊至管理處或巷口
+                                ► 全台灣寄送免運費(台灣本島)<br>
+                                ► 偏遠地區須加運費，請見頁面最下方</p>
+                                <a href=""
+                                    class="w-100 btn btn-warning-1 btn-danger-1-hover rounded-pill fw700">贊助此專案</a>
+                            </div>
+                        </li>
+                        <li class="card border-rounded-1 my-3">
+                            <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg"
+                                class="card-img-top" alt="plan_img">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <p class="fz-2 text-light">限時優惠</p>
+                                    <p class="fz-2 text-light">2 days 20:05:20</p>
+                                </div>
+                                <h2 class="card-title fz-3 fw700">【台制 單人加大一張】</h2>
+                                <span class="fz-3 ff-bt2">原價24,800元 (現省12000元)</span>
+                                <div class="d-flex">
+                                    <span
+                                        class="badge bg-darkGary rounded-3 text-secondary fz-1 fw700 me-3 px-3">已被贊助150次</span>
+                                    <span class="badge bg-secondary rounded-3 text-white fz-1 fw700 px-3">限量<small
+                                            class="fz-1 text-warning">200</small>個</span>
+                                </div>
+                                <p class="card-text my-3 text-secondary lh-base">
+                                    台制單人加大｜105 x 188 x 26 cm±1cm<br>
+                                    ► 免費搬運舊床墊至管理處或巷口<br>
+                                    ► 全台灣寄送免運費(台灣本島)<br>
+                                    ► 偏遠地區須加運費，請見頁面最下方
+                                </p>
+                                <a href=""
+                                    class="w-100 btn btn-warning-1 btn-danger-1-hover rounded-pill fw700">贊助此專案</a>
+                            </div>
+                        </li>
+                        <li class="card border-rounded-1 my-3">
+                            <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg"
+                                class="card-img-top" alt="plan_img">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <p class="fz-2 text-light">限時優惠</p>
+                                    <p class="fz-2 text-light">2 days 20:05:20</p>
+                                </div>
+                                <h2 class="card-title fz-3 fw700">【台制 或 MUJI 雙人加大一張】</h2>
+                                <span class="fz-3 ff-bt2">原價 35,800 元 (現省 17,000元)</span>
+                                <div class="d-flex">
+                                    <span
+                                        class="badge bg-darkGary rounded-3 text-secondary fz-1 fw700 me-3 px-3">已被贊助85次</span>
+                                    <span class="badge bg-secondary rounded-3 text-white fz-1 fw700 px-3">限量<small
+                                            class="fz-1 text-warning">100</small>個</span>
+                                </div>
+                                <p class="card-text my-3 text-secondary lh-base">
+                                    台制加大｜180 x 188 x 26 cm±1<br>
+                                    MUJI加大｜160 x 195 x 26 cm±1<br>
+                                    ► 免費搬運舊床墊至管理處或巷口<br>
+                                    ► 全台灣寄送免運費(台灣本島)<br>
+                                    ► 偏遠地區須加運費，請見頁面最下方</p>
+                                <a href=""
+                                    class="w-100 btn btn-warning-1 btn-danger-1-hover rounded-pill fw700">贊助此專案</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--贊助專案表單-->
+                <div class="position-relative mt-6 mb-6">
+                    <div class="progress bg-warning" style="height: 3px">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+
+                    <div
+                        class="position-absolute top-0 start-50 translate-middle bg-white text-center px-3 fs-lg-4 fs-mobile-2">
+                        <img src="img/heart.svg" alt="icon_heart">
+                        <h2 class="fz-5 letter-spacing-1 fw700">贊助專案</h2>
+                    </div>
+                </div>
+                <form id="form" class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="project" class="form-label">贊助方案</label>
+                        <select class="form-select" id="project" aria-label="請選擇一個方案" required>
+                            <option value="1">台制單人標準，只有200組別錯過</option>
+                            <option value="2">台制單人加大，只有200組別錯過</option>
+                            <option value="3">台制或MUJI雙人加大，只有100組別錯過</option>
+                        </select>
+                        <div class="invalid-feedback">請選擇一個方案</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">收件人姓名</label>
+                        <input type="text" class="form-control" id="name" required>
+                        <div class="invalid-feedback">請輸入收件人姓名</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tel" class="form-label">連絡電話</label>
+                        <input type="text" class="form-control" id="tel" required>
+                        <div class="invalid-feedback">請輸入連絡電話</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">連絡信箱</label>
+                        <input type="email" class="form-control" id="Email" required>
+                        <div class="invalid-feedback">請輸入連絡信箱</div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="mb-3">
+                            <label for="payment" class="form-label">付款方式</label>
+                            <select id="payment" class="form-select" aria-label="select payment" required>
+                                <option value="1">信用卡付款</option>
+                                <option value="2">line pay</option>
+                                <option value="3">free pay</option>
+                            </select>
+                            <div class="invalid-feedback">請選擇付款方式</div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit"
+                                class="btn btn-warning-1 btn-danger-1-hover fw700 rounded-pill px-5 mt-2 fz-4">
+                                贊助專案
+                            </button>
+                        </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-lg-4 d-none d-sm-none d-md-none d-xl-block">
+            <!--蛤蛤科技-->
+            <div class="border border-rounded-1 border-1 p-3">
+                <div class="d-flex align-items-center">
+                    <img class="img-fluid rounded-circle border border-warning border-3 me-3 mb-3"
+                        src="img/avatar_4.png" alt="蛤蛤科技">
+                    <div>
+                        <p class="moneyStore">蛤蛤科技 唬唬</p>
+                        <p>已發起 1 個專案</p>
+                    </div>
+                </div>
+                <p class="d-none d-md-block">VR Bedroom 蛤蛤生風床墊，讓你睡夢中也能替換各種場景！</p>
+                <div class="d-flex justify-content-between aligh-items-center">
+                    <div>
+                        <a class="d-inline-block bg-secondary rounded-circle text-center me-2"
+                            style="width:30px; height:30px;">
+                            <i class="fab fa-facebook-f text-white mt-2"></i>
+                        </a>
+                        <a class="d-inline-block bg-secondary rounded-circle text-center"
+                            style="width:30px; height:30px;">
+                            <i class="fab fa-youtube text-white mt-2"></i>
+                        </a>
+                    </div>
+                    <button type="button"
+                        class="bg-white border-secondary rounded-pill text-center text-secondary py-1 px-3">
+                        <i class="far fa-comment-dots"></i><small>聯絡我們</small>
+                    </button>
+                </div>
+            </div>
+            <!--贊助方案-->
+            <h3 class="bg-gray-100 border-start border-end border-4 border-warning py-2 my-3 fz-4 text-center">
+                選擇一個方案來支持
+            </h3>
+            <ul class="ps-0">
+                <li class="card border-rounded-1 my-3">
+                    <img src="img/plan_img.jpg" class="card-img-top"
+                        alt="plan">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <p class="fz-2 text-light">限時優惠</p>
+                            <p class="fz-2 text-light">2 days 20:05:20</p>
+                        </div>
+                        <h2 class="card-title fz-3 fw700">【台制 單人標準一張】</h2>
+                        <span class="fz-3 ff-bt2">原價20,800元 (現省9000元)</span>
+                        <div class="d-flex">
+                            <span class="badge bg-darkGary rounded-3 text-secondary fz-1 fw700 me-3 px-3">已被贊助88次</span>
+                            <span class="badge bg-secondary rounded-3 text-white fz-1 fw700 px-3">限量<small
+                                    class="fz-1 text-warning">200</small>個</span>
+                        </div>
+                        <p class="card-text my-3 text-secondary lh-base">
+                            台制單人｜90 x 188 x 26 cm±1cm<br>
+                            ► 免費搬運舊床墊至管理處或巷口<br>
+                            ► 全台灣寄送免運費(台灣本島)<br>
+                            ► 偏遠地區須加運費，請見頁面最下方</p>
+
+                        </p>
+                        <a href="" class="w-100 btn btn-warning-1 btn-danger-1-hover rounded-pill fw700">贊助此專案</a>
+                    </div>
+                </li>
+                <li class="card border-rounded-1 my-3">
+                    <img src="img/plan_img.jpg" class="card-img-top"
+                        alt="plan">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <p class="fz-2 text-light">限時優惠</p>
+                            <p class="fz-2 text-light">2 days 20:05:20</p>
+                        </div>
+                        <h2 class="card-title fz-3 fw700">【台制 單人加大一張】</h2>
+                        <span class="fz-3 ff-bt2">原價24,800元 (現省12000元)</span>
+                        <div class="d-flex">
+                            <span class="badge bg-darkGary rounded-3 text-secondary fz-1 fw700 me-3 px-3">已被贊助150次</span>
+                            <span class="badge bg-secondary rounded-3 text-white fz-1 fw700 px-3">限量<small
+                                    class="fz-1 text-warning">200</small>個</span>
+                        </div>
+                        <p class="card-text my-3 text-secondary lh-base">
+                            台制單人加大｜105 x 188 x 26 cm±1cm<br>
+                            ► 免費搬運舊床墊至管理處或巷口<br>
+                            ► 全台灣寄送免運費(台灣本島)<br>
+                            ► 偏遠地區須加運費，請見頁面最下方
+                        </p>
+                        <a href="" class="w-100 btn btn-warning-1 btn-danger-1-hover rounded-pill fw700">贊助此專案</a>
+                    </div>
+                </li>
+                <li class="card border-rounded-1 my-3">
+                    <img src="img/plan_img.jpg" class="card-img-top"
+                        alt="plan">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <p class="fz-2 text-light">限時優惠</p>
+                            <p class="fz-2 text-light">2 days 20:05:20</p>
+                        </div>
+                        <h2 class="card-title fz-3 fw700">【台制 或 MUJI 雙人加大一張】</h2>
+                        <span class="fz-3 ff-bt2">原價 35,800 元 (現省 17,000元)</span>
+                        <div class="d-flex">
+                            <span class="badge bg-darkGary rounded-3 text-secondary fz-1 fw700 me-3 px-3">已被贊助85次</span>
+                            <span class="badge bg-secondary rounded-3 text-white fz-1 fw700 px-3">限量<small
+                                    class="fz-1 text-warning">100</small>個</span>
+                        </div>
+                        <p class="card-text my-3 text-secondary lh-base">台制加大｜180 x 188 x 26 cm±1<br>
+                            MUJI加大｜160 x 195 x 26 cm±1<br>
+                            ► 免費搬運舊床墊至管理處或巷口<br>
+                            ► 全台灣寄送免運費(台灣本島)<br>
+                            ► 偏遠地區須加運費，請見頁面最下方
+                        </p>
+                        <a href="" class="w-100 btn btn-warning-1 btn-danger-1-hover rounded-pill fw700">贊助此專案</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <!--footer-->
+    <footer class="py-3 mt-5 text-white text-center ">內容為個人練習</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+        </script>
+    <script>
+        // enable tooltips
+        var tooltipTriggerList = [].slice.call(
+            document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        );
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+
+        // click nav&tab go there & click go to form
+        var form = document.getElementById("form");
+        function heightToTop(ele) {
+            let bridge = ele;
+            let root = document.body;
+            let height = 0;
+            do {
+                height += bridge.offsetTop;
+                bridge = bridge.offsetParent;
+            } while (bridge !== root);
+
+            return height;
+        }
+        function goToTab() {
+            window.scrollTo({
+                top:
+                    heightToTop(document.getElementsByClassName("tab-content")[0]) - 70,
+                behavior: "smooth",
+            });
+        }
+        function goForm() {
+            window.scrollTo({
+                top: heightToTop(form) - 170,
+                behavior: "smooth",
+            });
+        }
+
+        // mobile btn toggle
+        var bottomBtn = document.getElementById("bottomBtn");
+        bottomBtn.style.display = "none";
+        window.onscroll = function () {
+            const t = document.documentElement.scrollTop || document.body.scrollTop;
+            if (bottomBtn !== null) {
+                if (
+                    t >
+                    heightToTop(document.getElementsByClassName("tab-content")[0]) -
+                    100 &&
+                    t < heightToTop(form) - 170
+                ) {
+                    bottomBtn.style.display = "block";
+                } else {
+                    bottomBtn.style.display = "none";
+                }
+            }
+        };
+
+        // form validation表單驗證
+        (function () {
+            "use strict";
+            var forms = document.querySelectorAll(".needs-validation");
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener(
+                    "submit",
+                    function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+
+                        form.classList.add("was-validated");
+                    },
+                    false
+                );
+            });
+        })();
+        let a = document.querySelectorAll("a");
+        a.forEach((item) => {
+            item.addEventListener("click", function (e) {
+                e.preventDefault();
+            });
+        });
+    </script>
+</body>
+
+</html>
